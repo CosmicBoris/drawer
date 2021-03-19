@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./public/",
+    "sourceMap": true,
+    "module": "es6",
+    "target": "ES2015",
+    "allowJs": true
+  },
+  "files":[
+    "./node_modules/@types/webpack/index.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

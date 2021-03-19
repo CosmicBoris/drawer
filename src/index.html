@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content='width=device-width, initial-scale=1.0, user-scalable=0' name='viewport'>
+  <title>Drawer</title>
+</head>
+<body>
+<main class="root">
+  <header class="root__header">
+    <ul class="shapes-list" data-active="Polygon">
+        <li class="shapes-list__item">
+          <button class="btn-glossy" data-type="Polygon">⬟</button>
+        </li>
+        <li class="shapes-list__item">
+          <button class="btn-glossy" data-type="Rectangle">▭</button>
+        </li>
+        <li class="shapes-list__item">
+          <button class="btn-glossy" data-type="Square">⬜</button>
+        </li>
+        <li class="shapes-list__item">
+          <button class="btn-glossy" data-type="Circle">⚪</button>
+        </li>
+    </ul>
+    <div class="header-col">
+      <label for="inp-color">Path color: </label>
+      <input type="color" id="inp-color" name="color" value="black">
+    </div>
+    <div class="header-col">
+      <button class="btn-glossy" data-action="clear" data-hint="clear canvas">🗑️</button>
+    </div>
+  </header>
+  <div class="root__aside">
+    <div class="box">
+      <p class="box__text"></p>
+    </div>
+  </div>
+  <div class="root__content"></div>
+  <footer class="root__footer">
+    <p class="root__hint pointer-info"></p>
+    <p class="root__hint shape-info"></p>
+  </footer>
+</main>
+</body>
+</html>
